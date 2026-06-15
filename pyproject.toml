@@ -1,0 +1,15 @@
+[project]
+name = "video2text"
+version = "0.1.0"
+description = "Extract audio from video, transcribe with Whisper, and summarize with LLM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ffmpeg-python",
+    "llama-cpp-python",
+    "tqdm",
+    "opencc",
+]
+
+[project.scripts]
+video2text = "main:main"
