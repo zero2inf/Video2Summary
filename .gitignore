@@ -23,3 +23,6 @@ output/
 .vscode/
 .idea/
 .DS_Store
+
+# opencode 本地配置
+.opencode/
